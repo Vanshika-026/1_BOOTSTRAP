@@ -1,0 +1,54 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: rgb(186, 233, 133);
+    color:rgba(2, 43, 2, 0.671)
+}
+ .navbar-brand{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: yellow;
+    font-weight: 600;
+    
+}
+.text-center  button{
+background-color: rgb(29, 73, 29);
+color: rgb(199, 199, 72);
+border-radius: 5px;
+cursor: pointer;
+border: none;
+font-size: 18px;
+padding:10px 12px;
+
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 14px;
+    color: rgb(24, 104, 58);
+}
+p{
+    text-align: center;
+    padding-top: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 700;
+
+}
+.container .nav-item .nav-link   {
+    color:rgb(153, 238, 209);
+    font-weight: 800;
+    
+}
+.container .nav-item .nav-link:hover{
+    color: black;
+    background-color: rgb(197, 241, 94);
+    border-radius: 4px;
+    transition: rgb(197, 241, 94) 4ms ease;
+}
+
+.container .dropdown-menu .dropdown-item{
+    background-color: rgb(236, 236, 191);
+    font-weight: 300;
+}
+
