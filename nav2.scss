@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(245, 223, 184);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.container h1{
+    color:rgb(29, 61, 3);
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    
+    
+}
+.container h5{
+    color: rgba(28, 88, 28, 0.897);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.container h2{
+    color: rgb(30, 3, 54);
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.container .grid-title{
+    color: rgb(49, 78, 5);
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+.container p{
+    font-weight: 700;
+    
+}
