@@ -1,13 +1,14 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    background-color: rgb(186, 233, 133);
+    background-color: rgb(203, 241, 159);
     color:rgba(2, 43, 2, 0.671)
 }
  .navbar-brand{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     color: yellow;
-    font-weight: 600;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgb(29, 189, 42);
     
 }
 .text-center  button{
@@ -20,14 +21,23 @@ font-size: 18px;
 padding:10px 12px;
 
 }
+.text-center button:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    color: rgb(226, 163, 81);
+    outline: solid rgb(226, 163, 81);
+}
 h1{
     text-align: center;
     font-weight: 800;
     font-size: 50px;
     padding-top: 30px;
     padding-bottom: 14px;
-    color: rgb(24, 104, 58);
+    color: rgb(25, 114, 121);    
+    text-shadow: 2px 2px 2px rgb(224, 101, 112);
+    
 }
+
+
 p{
     text-align: center;
     padding-top: 30px;
