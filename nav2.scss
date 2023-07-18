@@ -1,39 +1,79 @@
 body{
-    background-color: rgb(245, 223, 184);
+    background-color: rgb(194, 235, 202);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .container{
     margin-bottom: 30px;
     margin-top: 30px;
+    cursor: pointer;
 }
 .container h1{
-    color:rgb(29, 61, 3);
+    color:rgb(221, 243, 204);
     text-align: center;
     font-weight: 700;
     font-size: 3rem;
-    
+    background-color: rgb(6, 68, 68);
+    text-shadow: 2px 2px 2px rgb(226, 117, 74);
     
 }
 .container h5{
-    color: rgba(28, 88, 28, 0.897);
+    color: rgba(79, 88, 28, 0.897);
     text-align: center;
     font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgb(226, 117, 74);
 }
 .container h2{
-    color: rgb(30, 3, 54);
-    font-size: 2rem;
+    color: rgb(55, 78, 41);
+    font-size: 1.6rem;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 550;
+    text-shadow: 2px 2px 2px rgb(112, 199, 240);
+    
 }
 .container .grid-title{
-    color: rgb(49, 78, 5);
+    color: rgb(6, 47, 59);
     font-weight: 600;
     margin-top: 10px;
     
 }
 .container p{
     font-weight: 700;
+    font-size: 20px;
     
+}
+.container .card {
+  text-align: center;
+  border-radius: 20px;
+  border-color: rgb(7, 105, 7)orange;
+
+}
+
+.container .card img{
+    margin-left: 40px;
+    
+}
+
+.container .card .btn:hover{
+    background: rgb(90, 182, 224);
+    border-radius: 8px;
+    transition: 0.4s linear;
+
+}
+.container .card :hover{
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    color: rgb(190, 49, 13);
+    
+  
+}
+.card:hover{
+    
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.397);
+}  
+
+.container img{
+    transition: 0.9s linear;
 }
