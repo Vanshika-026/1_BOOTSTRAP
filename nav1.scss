@@ -32,8 +32,8 @@ h1{
     font-size: 50px;
     padding-top: 30px;
     padding-bottom: 14px;
-    color: rgb(25, 114, 121);    
-    text-shadow: 2px 2px 2px rgb(224, 101, 112);
+    color: rgb(247, 248, 248);    
+    text-shadow: 2px 2px 2px rgb(151, 20, 31);
     
 }
 
@@ -60,5 +60,14 @@ p{
 .container .dropdown-menu .dropdown-item{
     background-color: rgb(236, 236, 191);
     font-weight: 300;
+}
+section{
+    background-image: url(https://images.unsplash.com/photo-1610348725531-843dff563e2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;  
+    
+    
 }
 

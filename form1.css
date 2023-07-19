@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.container-fluid {
+  background-image: linear-gradient(to right, rgb(175, 226, 155), rgb(209, 171, 235));
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  animation: slide-in 4s ease-in-out;
+}
+
+.container-fluid h1 {
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgb(226, 117, 74);
+}
+
+.container .form-row {
+  background-image: linear-gradient(to right, rgb(226, 148, 148), rgb(157, 157, 230));
+  text-shadow: 2px 2px 2px rgb(185, 108, 78);
+}
+
+.container label {
+  margin-top: 15px;
+}
+
+.form-check-input {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: rgb(221, 35, 60);
+  border-style: none;
+  margin-top: 6px;
+  margin-bottom: 7px;
+}/*# sourceMappingURL=form1.css.map */
