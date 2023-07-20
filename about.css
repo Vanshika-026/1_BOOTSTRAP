@@ -1,1 +1,51 @@
-/*# sourceMappingURL=about.css.map */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(marketimage.avif);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 26px;
+}
+
+.card {
+  margin-top: 40px;
+  margin-right: 90px;
+}
+
+.card-container .card-img-top img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#p-1 {
+  margin-left: 35px;
+  margin-top: 6px;
+}
+
+.responsive-heading {
+  color: rgb(209, 243, 194);
+  font-weight: 700;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 700px) {
+  .responsive-heading {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .responsive-heading {
+    font-size: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=about.css.map */
